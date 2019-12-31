@@ -1,0 +1,16 @@
+h1 {
+    font-size: 40px;
+    color: lightcoral;
+}
+p {
+    font-size: 24px;
+    color: lightblue
+}
+p:hover {
+    font-size: 24px;
+    color: darkblue
+}
+#selfie {
+    width: 200px;
+    margin: 12px;
+}
