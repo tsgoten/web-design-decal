@@ -35,18 +35,25 @@ html, body {
 
 
 .sidebar {
-    /* Part 2 */
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebar-item {
-    /* Part 2 */
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
     /* Part 3 */
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /**
@@ -54,11 +61,17 @@ html, body {
  */
 
 .info-box-container {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-box {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 /**
@@ -66,15 +79,24 @@ html, body {
  */
 
 .chart-container {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .chart {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .small-charts-container {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
@@ -135,7 +157,7 @@ html, body {
 }
 
 .sidebar a .sidebar-item {
-    margin-left: 3px;
+    margin: 0 auto
 }
 
 /* content container (everything except sidebar) */
