@@ -10,3 +10,11 @@ function createSentence(num, noun) {
 function getRandomNum(max) {
     return Math.floor(Math.random() * max);
 }
+
+function toggleSongs(){
+    document.getElementById("songs-second-half").classList.toggle("hidden");
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("toggle-button").onclick = toggleSongs;
+})
