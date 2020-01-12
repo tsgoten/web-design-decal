@@ -1,0 +1,40 @@
+body {
+    background-color: #333333;
+}
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+    opacity: 70%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+header .content {
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    color: white;
+}
+#title-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+#sections {
+    display: flex;
+    justify-content: flex-end;
+}
+.section {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 5px;    
+    margin: 5px;
+}
