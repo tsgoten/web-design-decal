@@ -1,4 +1,12 @@
+#back-profile {
+    background-image: url('../images/back-profile.jpg');
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
 body {
+    position: relative;
     background-color: #333333;
 }
 .content {
@@ -15,6 +23,7 @@ header {
     top: 0px;
     left: 0px;
 }
+
 header .content {
     display: flex;
     justify-content: space-between;
@@ -38,3 +47,4 @@ header .content {
     padding: 5px;    
     margin: 5px;
 }
+
