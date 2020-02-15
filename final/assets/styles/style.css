@@ -1,3 +1,8 @@
+body {
+    position: relative;
+    background-color: #333333;
+}
+
 #back-profile {
     background-image: url('../images/back-profile.jpg');
     background-size: cover;
@@ -5,10 +10,7 @@
     width: 100%;
 }
 
-body {
-    position: relative;
-    background-color: #333333;
-}
+
 .content {
     width: 1200px;
     margin: 0 auto;
